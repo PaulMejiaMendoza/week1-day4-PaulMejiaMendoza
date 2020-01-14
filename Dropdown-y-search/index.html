@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/toggler.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Servicios</a>
+            <a href="">Nosotros</a>
+            <div class="dropdown">
+                <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true"
+                    aria-expanded="false">
+                    Formación
+                </a>
+                <div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
+                    <a href="#">Angular 7 + Animations</a>
+                    <a href="#">Angular 7 Avanzado</a>
+                    <a href="#">Docker + Kubernetes</a>
+                    <a href="#">NodeJS</a>
+                    <a href="#">CSS + Sass Avanzado</a>
+                    <a href="#">VueJS 2</a>
+                    <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                </div>
+            </div>
+            <a href="">Referencia</a>
+            <a href="">Contacto</a>
+        </nav>
+        <div class="search" id="Sugerencias">
+            <label for="buscar">Buscar en Campus</label>
+            <input type="text" class="search__input" aria-haspopup="true" aria-expanded="false" id="buscar">
+            <div class="dropdown__menu" aria-labelledby="searchAutocomplete">
+                <a href="#">Angular 7</a>
+                <a href="#">Angular 7 + Animations</a>
+                <a href="#">Angular 7 Avanzado</a>
+                <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                <a href="#">Otros cursos de formación</a>
+                <a href="#">Bootcamp</a>
+            </div>
+            <button type="submit">Buscar</button>
+        </div>
+
+    </header>
+    <!-- MAIN -->
+    <main>
+        <article>
+            <h1>¡Hola a todos!</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quas fugit doloremque quae deleniti
+                nulla?
+                Enim necessitatibus, quae neque voluptates molestiae doloremque ipsam? Ipsam excepturi veritatis harum
+                itaque, provident eligendi.
+            </p>
+            <a href="" title="Acerca del campus boream">Más información</a>
+        </article>
+
+        <section>
+            <!-- Cursos -->
+            <article>
+                <h2><a href="">Angular 7 + Animations</a> </h2>
+                <img src="images/placeimg_200_200_arch (1).jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque, ipsum delectus iusto neque,
+                    ea
+                    dolore cumque non modi excepturi fugiat vero ab, esse assumenda sit labore odio maxime nisi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum officia voluptate
+                    necessitatibus earum sapiente, eius eum ad doloremque nesciunt reiciendis ut quia? Dolor facilis,
+                    magni
+                    libero odio esse neque!
+                </p>
+            </article>
+            <article>
+                <h2><a href="">Docker + Kubernetes</a> </h2>
+                <img src="images/placeimg_200_200_arch.jpg" alt="docker+kubernetes">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque, ipsum delectus iusto neque,
+                    ea
+                    dolore cumque non modi excepturi fugiat vero ab, esse assumenda sit labore odio maxime nisi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum officia voluptate
+                    necessitatibus earum sapiente, eius eum ad doloremque nesciunt reiciendis ut quia? Dolor facilis,
+                    magni
+                    libero odio esse neque!
+                </p>
+            </article>
+            <article>
+                <h2><a href=""> NodeJS</a></h2>
+                <img src="images/placeimg_200_200_arch (2).jpg" alt="nodejs">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque, ipsum delectus iusto neque,
+                    ea
+                    dolore cumque non modi excepturi fugiat vero ab, esse assumenda sit labore odio maxime nisi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum officia voluptate
+                    necessitatibus earum sapiente, eius eum ad doloremque nesciunt reiciendis ut quia? Dolor facilis,
+                    magni
+                    libero odio esse neque!
+                </p>
+            </article>
+        </section>
+        <!-- Proximas convocatorias -->
+        <article>
+            <img src="../week1-day2-PaulMejiaMendoza\images/video.png"></img>
+            <h2>Próximas convocatorias</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere
+                molestiae.
+            </p>
+            <form action="">
+                <label for="email">Indica tu correo electronico</label>
+                <input type="email" id="email">
+                <button type="submit">Me apunto!</button>
+            </form>
+        </article>
+        <!-- Servicios de Apoyo -->
+        <article>
+            <h2>Servicios de apoyo profesional</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat corporis fuga eligendi ipsa reiciendis
+                tempora dignissimos voluptatibus, praesentium asperiores natus autem laborum vero expedita ea mollitia
+                consectetur possimus! Autem, incidunt.</p>
+            <a href="">Lorem ipsum</a>
+        </article>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div>
+            <ul>
+                <li><a href="">Inicio</a> </li>
+                <li><a href="">Servicios</a> </li>
+                <li><a href="">Nosotros</a> </li>
+                <li><a href="">Formación</a> </li>
+                <li><a href="">Referencia</a> </li>
+                <li><a href="">Conctacto</a></li>
+            </ul>
+        </div>
+        <p>&copy; Company 2018<p>
+    </footer>
+    <script type="text/javascript" src="JS/toggler.js"></script>
+</body>
+
+</html>
